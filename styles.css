@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.display {
+  background-color: grey;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-size: 45px;
+  margin: 0;
+  display: flex;
+}
+button {
+  flex: 1 25%;
+  padding: 100px;
+  border-radius: 10px;
+  background-color: pink;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.operators {
+  flex: 1;
+  flex-direction: column;
+}
